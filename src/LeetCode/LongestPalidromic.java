@@ -2,10 +2,10 @@ package LeetCode;
 
 import java.util.*;
 
-public class Fiveth {
+public class LongestPalidromic {
     public static void main(String[] args) {
 
-        Fiveth fiveth = new Fiveth();
+        LongestPalidromic fiveth = new LongestPalidromic();
         System.out.println(fiveth.longestPalindrome("bacabab"));
     }
 

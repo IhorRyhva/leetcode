@@ -3,10 +3,10 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Third {
+public class LongestSubs {
     public static void main(String[] args){
-        Third third = new Third();
-        System.out.println(third.lengthOfLongestSubstring("jbpnbwwd"));
+        LongestSubs longestSubs = new LongestSubs();
+        System.out.println(longestSubs.lengthOfLongestSubstring("jbpnbwwd"));
     }
 
     public int lengthOfLongestSubstring(String s) {

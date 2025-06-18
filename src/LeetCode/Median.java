@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class Fourth {
+public class Median {
     public static void main(String[] args) {
-        Fourth fourth = new Fourth();
+        Median fourth = new Median();
         int[] i = {1,2};
         int[] o = {3, 4};
 
