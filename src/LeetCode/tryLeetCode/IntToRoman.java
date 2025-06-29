@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.tryLeetCode;
 
 public class IntToRoman {
     public static void main(String[] args) {
