@@ -3,11 +3,7 @@ package LeetCode.firstMonth;
 import java.util.Stack;
 
 public class EvaluateReversePolishNotation {
-
-    public static void main(String[] args) {
-        EvaluateReversePolishNotation polishNotation = new EvaluateReversePolishNotation();
-        String[] test = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
-        System.out.println(polishNotation.evalRPN(test));
+    public static void main(String args[] ) throws Exception {
     }
 
     public int evalRPN(String[] tokens){
@@ -33,7 +29,6 @@ public class EvaluateReversePolishNotation {
         }
         return true;
     }
-
     private Integer operation(int num1, int num2, char operation){
         if(operation == '+'){
             return num1 + num2;
@@ -49,3 +44,4 @@ public class EvaluateReversePolishNotation {
     }
 
 }
+
