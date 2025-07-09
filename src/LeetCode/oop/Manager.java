@@ -116,7 +116,7 @@ public class Manager {
             }
             mathRandom = ThreadLocalRandom.current().nextInt(0, 32);
         }
-        return authorsGender;//
+        return authorsGender;
     }
 
     private ArrayList<Book> bookList(Author author){
